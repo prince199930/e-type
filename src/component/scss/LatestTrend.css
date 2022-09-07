@@ -1,0 +1,45 @@
+.trendContainer {
+  background-color: #fff;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px #ccc;
+  padding: 10px;
+}
+.trendContainer .trendData {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  justify-content: center;
+}
+.trendContainer .detailContainer {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.6rem;
+}
+.trendContainer .about {
+  width: 100px;
+  height: 130px;
+  box-shadow: 2px 4px 8px #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+.trendContainer .image {
+  height: 100px;
+  width: 100px;
+}
+.trendContainer .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.suggestConatiner {
+  font-size: 0.6rem;
+}/*# sourceMappingURL=LatestTrend.css.map */

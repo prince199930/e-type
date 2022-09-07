@@ -1,0 +1,21 @@
+@import "mixin";
+@import "var";
+
+.searchContainer {
+    @include flexprops;
+
+    .inputContainer {
+        width: 350px;
+        height: 20px;
+        background-color: $whiteColor;
+        border: none;
+        outline: none;
+        border-radius: $borderRadius;
+        box-shadow: $boxShadow;
+        padding: $padding;
+    }
+
+    .icon {
+        margin-left: -25px;
+    }
+}

@@ -1,0 +1,46 @@
+@import "mixin";
+@import "var";
+
+.trendContainer{
+    background-color:$whiteColor;
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    border-radius:$borderRadius;
+    box-shadow: $boxShadow;
+    padding: $padding;
+
+    .trendData{
+        display: flex;
+        column-gap: 10px;
+        justify-content: center
+    }
+
+    .detailContainer{
+        display: flex;
+        flex-direction: row;
+        font-size: $fontsizetitle;
+    }
+
+    .about{
+        width: 100px;
+        height: 130px;
+        box-shadow: $boxShadow;
+        padding: $padding;
+        border-radius: $borderRadius;
+    }
+
+    .image{
+        height: 100px; 
+        width: 100px
+    }
+
+    .title{
+        @include titleLength
+    }
+}
+
+.suggestConatiner{
+    font-size: $fontsizetitle;
+}

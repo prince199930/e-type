@@ -1,0 +1,63 @@
+@import "mixin";
+@import "var";
+
+.searchConatiner {
+    @include flexlatesttrend;
+
+    .desc {
+        @include paralatesttrend;
+    }
+}
+
+.ratingdesc {
+    @include rating
+}
+
+.trendDetailContainer {
+    display: flex;
+    column-gap: 15px;
+    width: 600px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-left: $padding;
+    padding-top: $padding;
+
+
+}
+
+.trendDesc {
+    padding: 5px;
+    width: 120px;
+    font-size: $fontsizetitle;
+
+    .imagetrend {
+        height: 80px;
+        width: 100px;
+        padding: 10px
+    }
+
+    .hoverdesc {
+        background-color: $btnColor;
+        padding: 5px;
+        padding-left: 29px
+    }
+
+    .title {
+      @include titleLength
+    }
+
+    .price {
+        color: $btnColor;
+    }
+
+    .ratingDesc {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .countDesc {
+        margin-left: 3px;
+        font-size: 7px;
+        margin-top: 1px
+    }
+}
