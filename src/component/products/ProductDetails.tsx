@@ -27,7 +27,7 @@ function ProductDetails({ fetchData, productName, final }:ProductProps) {
     return (
         <>
             <SearchBar value={productName} onChange={(e) => fetchData(e.target.value)}/>
-            <div style={{ backgroundColor: "#fff", display: "flex", justifyContent: "space-evenly" }}>
+            <div className='ProductDesc'>
                 <SearchResult />
                 <div className='trendDetailContainer'>
                     {

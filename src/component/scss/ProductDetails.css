@@ -8,6 +8,12 @@
   border: 1px solid black;
 }
 
+.ProductDesc {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .ratingdesc {
   height: 7px;
   width: 7px;
@@ -61,4 +67,35 @@
   margin-left: 3px;
   font-size: 7px;
   margin-top: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchResult {
+    font-size: 15px;
+    width: 90px;
+  }
+  .brand {
+    font-size: 15px;
+  }
+  .priceRange {
+    font-size: 15px;
+  }
+  .ratings {
+    font-size: 15px;
+  }
+  .searchConatiner {
+    flex-direction: row;
+    width: 80px;
+  }
+  .searchConatiner .desc {
+    height: 5px;
+    width: 5px;
+  }
+  .trendDetailContainer {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    width: 500px;
+    row-gap: 10px;
+    margin-left: 20px;
+  }
 }/*# sourceMappingURL=ProductDetails.css.map */

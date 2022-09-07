@@ -5,11 +5,11 @@ function SearchResult() {
   return (
     <div>
                     <div>
-                        <p>Search Results</p>
+                        <p className='searchResult'>Search Results</p>
                     </div>
                     <div>
                         <div>
-                            <p>BRAND</p>
+                            <p className='brand'>BRAND</p>
                         </div>
                         <div>
                             <div className='searchConatiner'>
@@ -22,7 +22,7 @@ function SearchResult() {
                             </div>
                         </div>
                         <div>
-                            <p>PRICE RANGE</p>
+                            <p className='priceRange'>PRICE RANGE</p>
                         </div>
                         <div>
                             <div className='searchConatiner' >
@@ -35,7 +35,7 @@ function SearchResult() {
                             </div>
                         </div>
                         <div>
-                            <p>RATINGS</p>
+                            <p className='ratings'>RATINGS</p>
                         </div>
                         <div>
                             <div className='searchConatiner' >

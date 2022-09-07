@@ -44,3 +44,30 @@
 .suggestConatiner{
     font-size: $fontsizetitle;
 }
+
+@media only screen and (max-width: 600px) {
+    .trendContainer{
+        background-color:$whiteColor;
+        width:350px;
+
+            .trendData{
+            column-gap: 2px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .about{
+            width: 60px;
+            height: 90px;
+            box-shadow: $boxShadow;
+            padding: $padding;
+            border-radius: $borderRadius;
+        }
+
+        .image{
+            height: 60px; 
+            width: 60px
+        }
+  }
+
+}

@@ -42,4 +42,28 @@
 
 .suggestConatiner {
   font-size: 0.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .trendContainer {
+    background-color: #fff;
+    width: 350px;
+  }
+  .trendContainer .trendData {
+    -moz-column-gap: 2px;
+         column-gap: 2px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .trendContainer .about {
+    width: 60px;
+    height: 90px;
+    box-shadow: 2px 4px 8px #ccc;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .trendContainer .image {
+    height: 60px;
+    width: 60px;
+  }
 }/*# sourceMappingURL=LatestTrend.css.map */
